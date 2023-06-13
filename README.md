@@ -19,13 +19,13 @@ Hyperparameter tuning and Model Training use GridSearchCV where the pipeline bef
 
 ## Result Comparison
 
-| Parameter                     | Logistic Regression          | Random Forest                                          |
-| ----------------------------- | ------------------------------------------------------------------------------------- |
-| Accuracy                      | 0.8607                       | 0.8635                                                 |
-| Precision                     | 0.7516                       | 0.7816                                                 |
-| Recall                        | 0.7816                       | 0.7394                                                 |
-| F1-score                      | 0.7663                       | 0.7599                                                 |
-| ROC AUC Score                 | 0.8375                       | 0.8270                                                 |
+| Parameter                     | Logistic Regression          | Random Forest                                         |
+| ----------------------------- | -------------------------------------------------------------------------------------|
+| Accuracy                      | 0.8607                       | 0.8635                                                |
+| Precision                     | 0.7516                       | 0.7816                                                |
+| Recall                        | 0.7816                       | 0.7394                                                |
+| F1-score                      | 0.7663                       | 0.7599                                                |
+| ROC AUC Score                 | 0.8375                       | 0.8270                                                |
 
 Based on the result comparison, better to use the logistic regression model for the data that I've already processed because of the high Recall and it's easier to explain logistic regression model rather than random forest.
 
