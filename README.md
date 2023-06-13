@@ -20,7 +20,7 @@ Hyperparameter tuning and Model Training use GridSearchCV where the pipeline bef
 ## Result Comparison
 
 | Parameter                     | Logistic Regression          | Random Forest                                         |
-| ----------------------------- | -------------------------------------------------------------------------------------|
+| :---------------------------: | :--------------------------- |:----------------------------------------------------- |
 | Accuracy                      | 0.8607                       | 0.8635                                                |
 | Precision                     | 0.7516                       | 0.7816                                                |
 | Recall                        | 0.7816                       | 0.7394                                                |
